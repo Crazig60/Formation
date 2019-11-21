@@ -18,5 +18,5 @@ Message: ".$_POST['message']." \r\n
 ";
 $res = mail($TO ,$sujet ,$informations, $head);
 
-Header("Location: http://localhost/HTML/index.html");
+Header("Location: https://cnfdi-cours.herokuapp.com/index.html");
 ?>
