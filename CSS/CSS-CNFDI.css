@@ -1,0 +1,17 @@
+@charset "utf-8";
+a:visited {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+}
+a:link {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+}
+.page-en-cours {
+    color: rgba(243,10,14,1.00);
+    background-color: rgba(108,220,62,1.00);
+}
+.img-fleche {
+    width: 30px;
+    height: auto;
+}
