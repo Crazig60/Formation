@@ -153,7 +153,7 @@ select {
   </nav>
   <section>
     <article class="article1"><h3>REMPLISSEZ LE FORMULAIRE SUIVANT&nbsp;</h3>
-<form action="PHP/validation.php" method="post" name="FORM-CNFDI" id="FORM-CNFDI">
+<form action="validation.php" method="post" name="FORM-CNFDI" id="FORM-CNFDI">
   <table width="500" border="1">
     <tbody>
       <tr>
@@ -213,7 +213,7 @@ select {
         <textarea name="Message" rows="5" id="Message"></textarea></td>
       </tr>
       <tr>
-        <td colspan="2" class="td-centre"><input name="submit" type="submit" id="submit" value="Envoyer">
+        <td colspan="2" class="td-centre"><input name="submit" type="submit" id="submit" formaction="validation.php" formmethod="POST" value="Envoyer">
         <input type="reset" name="reset" id="reset" value="Réinitialiser"></td>
       </tr>
     </tbody>
