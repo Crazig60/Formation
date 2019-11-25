@@ -1,5 +1,5 @@
 <?php
-$adresse = "jerome.caouren@gmail.com";
+$adresse = "silverheart974@msn.com";
 $TO = $adresse;
 $head = "From: ".$adresse."\n";
 $head .= "X-Sender: <".$adresse.">\n";
