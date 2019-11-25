@@ -10,7 +10,7 @@ $sujet = "Formulaire formation DREAMWEAVER CC";
 $informations = "
 Civilité: ".$_POST['Civilite']." \r\n
 Nom: ".$_POST['Nom']." \r\n
-Prénom: ".$_POST['Prenom']." \r\n
+Prenom: ".$_POST['Prenom']." \r\n
 Sport: ".$_POST['sport']." \r\n
 Niveau: ".$_POST['niveau-sport']."\r\n
 Email du formulaire: ".$_POST['email']." \r\n
