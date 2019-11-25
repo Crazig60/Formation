@@ -1,5 +1,5 @@
 <?php
-$adresse = "silverheart974@msn.com";
+$adresse = "jerome.caouren@gmail.com";
 $TO = $adresse;
 $head = "From: ".$adresse."\n";
 $head .= "X-Sender: <".$adresse.">\n";
@@ -12,7 +12,7 @@ Civilité: ".$_POST['Civilite']." \r\n
 Nom: ".$_POST['Nom']." \r\n
 Prenom: ".$_POST['Prenom']." \r\n
 Sport: ".$_POST['sport']." \r\n
-Niveau: ".$_POST['niveau-sport']."\r\n
+Niveau: ".$_POST['niveau-sport']." \r\n
 Email du formulaire: ".$_POST['email']." \r\n
 Message: ".$_POST['Message']." \r\n
 ";
