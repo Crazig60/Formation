@@ -16,7 +16,9 @@ Niveau: ".$_POST['niveau-sport']."\r\n
 Email du formulaire: ".$_POST['email']." \r\n
 Message: ".$_POST['Message']." \r\n
 ";
+
 $res = mail($TO ,$sujet ,$informations, $head);
+echo $res;
 
 Header("Location: https://cnfdi-cours.herokuapp.com/index.html" );
 ?>
