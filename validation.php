@@ -17,5 +17,5 @@ Email du formulaire: ".$_POST['email']." \r\n
 Message: ".$_POST['Message']." \r\n";
 $res = mail($TO ,$sujet ,$informations, $head);
 echo $_POST['$res'];
-Header("Location: https://cnfdi-cours.herokuapp.com/index.html" );
+Header("Location: https://cnfdi-cours.herokuapp.com" );
 ?>
